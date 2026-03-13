@@ -2234,4 +2234,4 @@ function initWBMagicMenu() {
 eventOn(tavern_events.APP_READY, () => { initWBMagicMenu(); });
 setTimeout(initWBMagicMenu, 1000);
 
-toastr.info('世界书批量管理工具已加载', '✅ 就绪', { timeOut: 2500 });
+toastr.info('世界书批量管理工具成功加载，感谢您的使用', '✅ 就绪', { timeOut: 2500 });
