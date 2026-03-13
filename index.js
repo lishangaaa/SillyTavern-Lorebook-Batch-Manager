@@ -1,7 +1,7 @@
 // 世界书批量管理 - 酒馆助手脚本 v2.5.1
 // 作者：离殇
 
-const VERSION = 'v2.5.1';
+const VERSION = 'v2.5.1.1';
 const CHUNK_SIZE = 50;
 
 const STYLE = `
