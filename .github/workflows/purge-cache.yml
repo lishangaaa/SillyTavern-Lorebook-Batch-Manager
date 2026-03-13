@@ -1,0 +1,16 @@
+name: Auto Purge jsDelivr Cache
+
+# 触发条件：当你 push 代码到 main 分支时触发
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Purge Request
+        # 这里换成你需要实时更新的那个文件的 purge 链接
+        run: |
+          curl -i https://purge.jsdelivr.net/gh/lishangaaa/SillyTavern-Lorebook-Batch-Manager/index.js
